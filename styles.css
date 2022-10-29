@@ -68,13 +68,13 @@ footer {
     }
 }
 
-@media screen and (min-width: 1440px) {
-    .main {
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+    .container {
         background-color: hsl(0, 0%, 100%);
         width: 320px;
         height: 490px;
-        margin-left: 550px;
-        margin-top: 160px;
+        margin: 0 auto;
+        margin-top: 200px;
         border-radius: 20px;
     }
 
